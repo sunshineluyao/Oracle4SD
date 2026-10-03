@@ -21,6 +21,16 @@ Real projects require their own sources, permissions, methods and scientific val
 [Quick start](#quick-start) · [Folders](#folders) · [First-author tasks](#author-tasks) ·
 [Requirements](docs/REQUIREMENTS.md) · [Hugging Face](docs/HUGGING_FACE.md) · [Validation](docs/VALIDATION_STATUS.md)
 
+## Real oracle case and metadata example
+
+[Open the eight-part Oracle Atlas example in Colab](https://colab.research.google.com/github/sunshineluyao/Oracle4SD/blob/examples/oracle-review-20261003/notebooks/Oracle_Atlas_Colab_Example.ipynb).
+It uses the pinned student code to reconstruct one real UMA case, with portable
+Python setup and a ZIP containing both deterministic repeat runs.
+[Instructions, Croissant repair, and remaining author tasks](examples/oracle_review/README.md)
+explain the exact tested scope and metadata checks. Hosted Colab execution and
+full cross-protocol reproduction remain author acceptance tasks.
+The original synthetic workflow below remains available as the general teaching example.
+
 <a id="quick-start"></a>
 ## Quick start
 

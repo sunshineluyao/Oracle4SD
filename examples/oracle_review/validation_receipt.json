@@ -1,0 +1,101 @@
+{
+  "runtime_kind": "fresh Python process, not hosted Colab/Jupyter UI",
+  "host_python": "3.12.14",
+  "notebook_sha256": "cd9e9ed02583b6bb472274349546e4bf122262fefbb3e3a945a4dffddaae5cde",
+  "scientific_code_commit": "5ee23c5ee76394233b26c89c1ebd9acae7328aa0",
+  "data_version": "uma-public-rpc-case-v1",
+  "expected_code_cells": 9,
+  "cells": [
+    {
+      "cell": 1,
+      "passed": true,
+      "seconds": 35.98
+    },
+    {
+      "cell": 3,
+      "passed": true,
+      "seconds": 0.001
+    },
+    {
+      "cell": 5,
+      "passed": true,
+      "seconds": 0.11
+    },
+    {
+      "cell": 7,
+      "passed": true,
+      "seconds": 0.001
+    },
+    {
+      "cell": 9,
+      "passed": true,
+      "seconds": 2.584
+    },
+    {
+      "cell": 11,
+      "passed": true,
+      "seconds": 0.001
+    },
+    {
+      "cell": 13,
+      "passed": true,
+      "seconds": 0.029
+    },
+    {
+      "cell": 15,
+      "passed": true,
+      "seconds": 0.101
+    },
+    {
+      "cell": 17,
+      "passed": true,
+      "seconds": 6.28
+    }
+  ],
+  "passed": true,
+  "elapsed_seconds": 45.089,
+  "scope": "one real case; same-code deterministic repeat; not full-resource or human review",
+  "hosted_colab": "not_evaluated",
+  "audit_date": "2026-10-03",
+  "upstream_student_tests": {
+    "passed": 10,
+    "scope": "bundled one-case integration and negative tests"
+  },
+  "case_validation": {
+    "passed_per_run": 28,
+    "runs": 2,
+    "same_inputs_and_implementation": true
+  },
+  "helper_tests": {
+    "passed": 6,
+    "scope": "environment selection, unsafe paths, incomplete metadata and unevaluated-data checks"
+  },
+  "metadata": {
+    "metadata_sha256": "6ceb9bebc6677de9557a5c1eb3a2ab0f0d72f177c0c1120869ed977d3d0701b7",
+    "mlcroissant_version": "1.1.0",
+    "passed": 194,
+    "failed": 0,
+    "not_evaluated": 0,
+    "recordsets_loaded": 15,
+    "data_revision": "aabcff2e1492df35f0aaa9abef657133fffe9b81",
+    "scope": "minimal profile, JSON-LD format and first-row access; no scientific or author certification",
+    "neurips_online_validator": "not_evaluated"
+  },
+  "original_teaching_workflow": {
+    "tests_passed": 18,
+    "template_check": "passed",
+    "synthetic_pipeline": "passed",
+    "scope": "unchanged synthetic teaching workflow"
+  },
+  "managed_python_branch": {
+    "local_managed_3_12_download_and_environment_creation": "passed",
+    "hosted_colab": "not_evaluated"
+  },
+  "open_acceptance_tasks": [
+    "Fresh Google-hosted Colab execution",
+    "NeurIPS-linked online validator report",
+    "Author verification of provenance for every dataset configuration",
+    "Correction, deposition and complete execution of the full cross-protocol resource",
+    "Independent human usability and scientific review"
+  ]
+}

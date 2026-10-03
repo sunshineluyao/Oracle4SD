@@ -1,0 +1,15 @@
+{
+  "result_id": "UMA-CASE-1",
+  "reported_result_or_boundary": "One real cross-chain request; 1000 USDC.e gross comprises 750 principal and 250 token gain",
+  "original_sources": "Pinned RPC snapshots and protocol source in the student commit",
+  "query_code": "https://github.com/virusLuke3/Oracle4SD-Atlas/blob/5ee23c5ee76394233b26c89c1ebd9acae7328aa0/code/query_data/query.py",
+  "queried_data": "https://github.com/virusLuke3/Oracle4SD-Atlas/tree/5ee23c5ee76394233b26c89c1ebd9acae7328aa0/data/queried_data/uma_case",
+  "process_code": "https://github.com/virusLuke3/Oracle4SD-Atlas/blob/5ee23c5ee76394233b26c89c1ebd9acae7328aa0/code/process_data/process.py",
+  "processed_data": "The notebook's first-run/processed_data and repeat-run/processed_data directories",
+  "analysis_code": "https://github.com/virusLuke3/Oracle4SD-Atlas/blob/5ee23c5ee76394233b26c89c1ebd9acae7328aa0/code/analyze_data/analyze.py",
+  "result_outputs": "analysis/summary.json, reports/validation.json and the exported ZIP containing both runs",
+  "commands": "python examples/oracle_review/execute_example.py --report runs/example-execution.json (host prerequisite: IPython 9.17.1)",
+  "evidence_status": "DERIVED",
+  "interpretation_boundary": "One observed case; no full-resource certification, causal inference, entity identity, independent factual truth or total net-profit claim",
+  "data_revision": "uma-public-rpc-case-v1; student commit 5ee23c5ee76394233b26c89c1ebd9acae7328aa0; HF subset aabcff2e1492df35f0aaa9abef657133fffe9b81"
+}

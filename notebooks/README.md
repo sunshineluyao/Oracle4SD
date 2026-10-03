@@ -42,3 +42,11 @@ The extended [authoring template](Scientific_Data_Colab_Tutorial_Template.ipynb)
 
 **Requirement mapping:** [Usage Notes and code](https://www.nature.com/sdata/submission-guidelines); [reproducibility](https://neurips.cc/public/guides/PaperChecklist). These links identify the governing requirements;
 the task instructions are teaching recommendations. Check the actual submission year.
+
+## Real Oracle Atlas case
+
+[Oracle_Atlas_Colab_Example.ipynb](Oracle_Atlas_Colab_Example.ipynb) provides all eight
+parts for the pinned real one-case workflow. Its setup isolates Python 3.12 using
+uv, avoids the host ensurepip assumption, and records code/data identities.
+See [the scope and metadata instructions](../examples/oracle_review/README.md).
+The template and synthetic examples above are separate learning resources.
