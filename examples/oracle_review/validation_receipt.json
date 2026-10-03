@@ -79,7 +79,18 @@
     "recordsets_loaded": 15,
     "data_revision": "aabcff2e1492df35f0aaa9abef657133fffe9b81",
     "scope": "minimal profile, JSON-LD format and first-row access; no scientific or author certification",
-    "neurips_online_validator": "not_evaluated"
+    "neurips_online_validator": {
+      "status": "passed",
+      "date": "2026-10-03",
+      "validator_url": "https://huggingface.co/spaces/JoaquinVanschoren/croissant-checker",
+      "validated_metadata_url": "https://raw.githubusercontent.com/sunshineluyao/Oracle4SD/04fc5d7378bb220dd495c19952d8528a728bde5c/examples/oracle_review/croissant.corrected-example.json",
+      "metadata_sha256": "6ceb9bebc6677de9557a5c1eb3a2ab0f0d72f177c0c1120869ed977d3d0701b7",
+      "json": "passed",
+      "schema": "passed",
+      "minimal_rai_field_presence": "passed",
+      "recordsets_generation_passed": 15,
+      "scientific_provenance_attestation": false
+    }
   },
   "original_teaching_workflow": {
     "tests_passed": 18,
@@ -93,9 +104,9 @@
   },
   "open_acceptance_tasks": [
     "Fresh Google-hosted Colab execution",
-    "NeurIPS-linked online validator report",
     "Author verification of provenance for every dataset configuration",
     "Correction, deposition and complete execution of the full cross-protocol resource",
-    "Independent human usability and scientific review"
+    "Independent human usability and scientific review",
+    "Repeat validator on the final author-verified submitted metadata"
   ]
 }

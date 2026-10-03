@@ -73,7 +73,9 @@ Without a data root or the loader, file/access checks are **not evaluated** and
 the command cannot report a complete pass. This helper checks the minimal
 profile and exact file/schema access; the
 [NeurIPS validator](https://neurips.cc/Conferences/2026/EvaluationsDatasetsHosting)
-and scientific review remain separate steps.
+has also passed this example, including records generation for all 15 tables;
+see [the online report](online_validator_report.md). Scientific review and author
+verification remain separate steps. Validate the final submitted metadata again.
 
 ## What students must still deliver
 
